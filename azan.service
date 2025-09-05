@@ -10,7 +10,7 @@ StartLimitBurst=5
 Type=simple
 Restart=always
 RestartSec=1s
-ExecStart=/opt/Automated-Azan/execute_azan_on_google_home_devices.py
+ExecStart=/opt/Automated-Azan/execute_azan
 
 [Install]
 WantedBy=multi-user.target
