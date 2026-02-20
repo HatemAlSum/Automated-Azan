@@ -21,6 +21,7 @@ sudo apt-get install python3-six
 sudo apt-get install python3-tz
 sudo apt-get install python3-zeroconf
 sudo apt-get install python3-chardet
+sudo apt-get install python3-netaddr
 
 pyinstaller --hiddenimport zeroconf._utils.ipaddress --hiddenimport zeroconf._handlers.answers --noconfirm execute_azan.py
 
