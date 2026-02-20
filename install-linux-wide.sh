@@ -25,6 +25,7 @@ sudo apt-get install python3-netaddr
 
 pyinstaller --hiddenimport zeroconf._utils.ipaddress --hiddenimport zeroconf._handlers.answers --noconfirm execute_azan.py
 
+sudo mkdir  /opt/Automated-Azan
 sudo cp -r  dist/execute_azan/*  /opt/Automated-Azan/
 sudo cp azan.service /etc/systemd/system/
 sudo systemctl enable azan.service
