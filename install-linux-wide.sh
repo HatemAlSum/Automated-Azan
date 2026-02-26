@@ -32,4 +32,3 @@ sudo cp -r  dist/execute_azan/*  /opt/Automated-Azan/
 sudo cp azan.service /etc/systemd/system/
 sudo systemctl enable azan.service
 sudo systemctl start azan.service
-sudo reboot
